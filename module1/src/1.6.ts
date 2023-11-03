@@ -24,3 +24,5 @@ const User = {
 const arr: number[] = [1, 2, 3, 4];
 
 const newArray: number[] = arr.map((elem: number): number => elem * elem)
+
+console.log(newArray);
