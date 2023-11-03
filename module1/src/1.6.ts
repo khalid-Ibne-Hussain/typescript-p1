@@ -18,4 +18,9 @@ const User = {
     addBalance(balance: number): string {
         return `my new balance is: ${this.balance + balance}`;
     },
-}
+};
+
+
+const arr: number[] = [1, 2, 3, 4];
+
+const newArray: number[] = arr.map((elem: number): number => elem * elem)
